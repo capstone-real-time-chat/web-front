@@ -3,34 +3,30 @@
     position: absolute;
     left: 50px;
     top: 66px;
-    width: 1390px; /* 양쪽 10px 공간 확보 */
-    height: 950px; /* 위 20px 공간 확보 */
+    width: calc(100% - 50px); /* 양쪽 10px 공간 확보 */
+    height: calc(100% - 66px); /* 위 20px 공간 확보 */
     /* height: 900px; */
   }
 
 .stocks-1,
 .stocks-2,
 .stocks-3,
-.stocks-4,
-.stocks-5,
-.stocks-6 {
+.stocks-4{
     position: absolute;
-    width: 605px;
-    height: 250px;
+    width: 305px;
+    height: 150px;
     border-radius: 15px;
 
 }
 
 .stocks-1,
-.stocks-3,
-.stocks-5 {
+.stocks-3 {
     margin-left: 60px;
 }
 
 .stocks-2,
-.stocks-4,
-.stocks-6 {
-    margin-left: 725px;
+.stocks-4 {
+    margin-left: 525px;
 }
 
 .stocks-1,
@@ -40,12 +36,7 @@
 
 .stocks-3,
 .stocks-4 {
-    margin-top: 350px;
-}
-
-.stocks-5,
-.stocks-6 {
-    margin-top: 650px;
+    margin-top: 250px;
 }
 
 .stocks-1 {
@@ -62,12 +53,4 @@
 
 .stocks-4 {
     background-color: rgb(99, 156, 84);
-}
-
-.stocks-5 {
-    background-color: rgb(117, 155, 107);
-}
-
-.stocks-6 {
-    background-color: rgb(131, 153, 126);
 }
