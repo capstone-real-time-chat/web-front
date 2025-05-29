@@ -1,11 +1,11 @@
-import Main from "./Main";
-import Center from "./Center";
-import LeftBar from "./leftBar";
-import TopBar from "./topBar";
-import Login from "./Login";
-import Search from "./Search";
-import SignUp from "./SignUp";
-import StockMain from "./stockMain";
+import Main from "./pages/Main/Main";
+import Center from "./pages/Main/Center/Center";
+import LeftBar from "./components/leftBar/leftBar";
+import TopBar from "./components/topBar/topBar";
+import Login from "./pages/Login/Login/Login";
+import Search from "./components/leftBar/Search/Search";
+import SignUp from "./pages/Login/Signup/SignUp";
+import StockMain from "./pages/Main/StockMain/stockMain";
 import React, { useState } from 'react';
 
 function App() {

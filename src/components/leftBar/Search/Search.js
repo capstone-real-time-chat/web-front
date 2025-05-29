@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Search.css';
-import searchImg from './img/search.png';
+import searchImg from '../../../img/search.png';
 
 function Search({ isVisible }) {
   const [inputValue, setInputValue] = useState('');

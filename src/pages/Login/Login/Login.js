@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Login.css';
-import api from './api';
+import api from '../../../api';
 
 function Login({ onClickSignUp }) {
     const [username, setUsername] = useState('');

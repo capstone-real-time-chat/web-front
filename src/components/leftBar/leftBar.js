@@ -1,7 +1,7 @@
 import React from 'react';
 import './leftBar.css';
-import accountImg from './img/account.png';
-import menuImg from './img/menu.png';
+import accountImg from '../../img/account.png';
+import menuImg from '../../img/menu.png';
 
 function LeftBar({ onClickAccount, onClickMenu }) {
   return (
